@@ -5,6 +5,6 @@ import org.testng.annotations.Test;
 @Test
 public class GroupsOnClass1 {
     public void stu1(){
-        System.out.println("");
+        System.out.println("我是stu1");
     }
 }
