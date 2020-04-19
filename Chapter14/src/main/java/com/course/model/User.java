@@ -1,10 +1,9 @@
 package com.course.model;
 
-
 import lombok.Data;
 
 @Data
-public class AddUserCase {
+public class User {
     private int id;
     private String userName;
     private String password;
@@ -12,5 +11,4 @@ public class AddUserCase {
     private String sex;
     private String permission;
     private String isDelete;
-    private String expected;
 }
